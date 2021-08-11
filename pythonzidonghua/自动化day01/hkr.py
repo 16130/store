@@ -27,7 +27,6 @@ driver.refresh()   #刷新界面
 driver.find_element_by_xpath("//*[@name='time' and @class='show_tea']").send_keys("9（上晚自习）")
 # #8.选择授课讲师
 driver.find_element_by_xpath("//*[@name='teaName' and @class='show_tea']").send_keys("贾生")
-time.sleep(2)
 # #9.评价内容
 driver.find_element_by_xpath("//*[@id='form_table']/tbody/tr[5]/td[3]/div/label[2]/div").click()
 driver.find_element_by_xpath("//*[@id='form_table']/tbody/tr[6]/td[2]/div/label[2]/div").click()
